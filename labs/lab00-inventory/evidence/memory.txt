@@ -1,0 +1,7 @@
+﻿
+DeviceLocator    Capacity Speed Manufacturer PartNumber          
+-------------    -------- ----- ------------ ----------          
+ChannelA-DIMM0 8589934592  2667 SK Hynix     HMA81GS6JJR8N-VK    
+ChannelB-DIMM0 8589934592  2667 SK Hynix     HMA81GS6JJR8N-VK    
+
+

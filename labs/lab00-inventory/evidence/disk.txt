@@ -1,0 +1,6 @@
+﻿
+Model              MediaType             InterfaceType         Size
+-----              ---------             -------------         ----
+HFM512GDHTNG-8310A Fixed hard disk media SCSI          512105932800
+
+
