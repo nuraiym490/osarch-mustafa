@@ -1,0 +1,81 @@
+﻿AdminPasswordStatus         : 0
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 0
+PowerOnPasswordStatus       : 0
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 0
+ThermalState                : 3
+Status                      : OK
+Name                        : DESKTOP-HBRLNMA
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : DESKTOP-HBRLNMA
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : nuraiymmustafa490@gmail.com
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           :
+BootOptionOnWatchDog        :
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 39...}
+ChassisSKUNumber            : SKU Number
+CurrentTimeZone             : 300
+DaylightInEffect            :
+DNSHostName                 : DESKTOP-HBRLNMA
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : True
+InfraredSupported           : False
+Manufacturer                : LENOVO
+Model                       : 81SY
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 8
+NumberOfProcessors          : 1
+OEMLogoBitmap               :
+OEMStringArray              : {OemString1, OemString2, OemString3}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 2
+PCSystemTypeEx              : 2
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                : Legion Y540-15IRH-PG0
+SystemSKUNumber             : LENOVO_MT_81SY_BU_idea_FM_Legion Y540-15IRH-PG0
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 17096134656
+UserName                    : DESKTOP-HBRLNMA\nurai
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+Manufacturer   Capacity Speed PartNumber
+------------   -------- ----- ----------
+SK Hynix     8589934592  2667 HMA81GS6JJR8N-VK
+SK Hynix     8589934592  2667 HMA81GS6JJR8N-VK
+
+
+
+Model              MediaType                     Size
+-----              ---------                     ----
+HFM512GDHTNG-8310A Fixed hard disk media 512105932800
