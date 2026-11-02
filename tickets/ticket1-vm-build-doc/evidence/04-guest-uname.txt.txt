@@ -1,0 +1,25 @@
+Linux nuraiymserver 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 4 09:10:14 UTC 2026 x86_64 GNU/Linux
+PRETTY NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION CODENAME-resolute
+ID-ubuntu
+ID LIKE debian
+HOME URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU CODENAME=resolute
+LOGO-ubuntu-logo
+1: 10: <LOOPBACK, UP, LOHER UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+inet 127.0.0.1/0 1/8 scope host lo
+valid_ift forever preferred_ift forever
+inet61/128 scope host noprefixroute
+ens33: <BROADCAST, HULTICAST, UP, LOWER UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1900
+valid_ift forever preferred_ift forever 2:
+link/ether 00:00:29:10:29:12 brd ff:ffffffffff
+altneme enp2s1 altname enx000c29102912
+Inet 192.168.200.129/24 metric 100 brd 192.168.200.255 scope global dynamic ens33
+valid lft 1768sec preferred_lft 1768sec inet6 fe80::20c:29ff:fe10:2912/64 scope link proto kernel_11
+valid_ift forever preferred_Ift forever
