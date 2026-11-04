@@ -1,4 +1,4 @@
-# Ticket 1 
+# Ticket 1
 
 
 
@@ -10,91 +10,91 @@ Before starting, it is important to understand several basic terms.
 
 
 
-\*\*Virtual Machine (VM)\*\*  
+\*\*Virtual Machine (VM)\*\*
 
 A virtual machine is a computer created inside another physical computer. It behaves like a separate computer and can run its own operating system. In this project, we will create one Linux VM and one Windows VM.
 
 
 
-\*\*Host Computer\*\*  
+\*\*Host Computer\*\*
 
 The physical computer on which VMware Workstation is installed. It provides the processor, memory and storage used by virtual machines.
 
 
 
-\*\*Guest Operating System\*\*  
+\*\*Guest Operating System\*\*
 
 The operating system installed inside a virtual machine. Ubuntu Server and Windows are the guest operating systems in this project.
 
 
 
-\*\*Hypervisor\*\*  
+\*\*Hypervisor\*\*
 
 Software that creates and manages virtual machines. We use VMware Workstation as our hypervisor.
 
 
 
-\*\*ISO File\*\*  
+\*\*ISO File\*\*
 
 An ISO file is an installation image containing the files needed to install an operating system. We need one ISO for Ubuntu Server and another ISO for Windows.
 
 
 
-\*\*CPU / vCPU\*\*  
+\*\*CPU / vCPU\*\*
 
 The CPU is the processor of the computer. A vCPU is a virtual processor allocated to a virtual machine. It uses processing resources from the host computer.
 
 
 
-\*\*RAM\*\*  
+\*\*RAM\*\*
 
 RAM is temporary working memory used by running programs. A virtual machine receives a portion of the host computer's RAM.
 
 
 
-\*\*Virtual Disk\*\*  
+\*\*Virtual Disk\*\*
 
 A virtual disk is a file or group of files stored on the host computer. The guest operating system uses it as its own hard drive.
 
 
 
-\*\*Network Adapter\*\*  
+\*\*Network Adapter\*\*
 
 A virtual network adapter allows a virtual machine to connect to a network.
 
 
 
-\*\*NAT (Network Address Translation)\*\*  
+\*\*NAT (Network Address Translation)\*\*
 
 A network mode that allows a virtual machine to access the internet through the host computer's network connection.
 
 
 
-\*\*Bridged Network\*\*  
+\*\*Bridged Network\*\*
 
 A network mode that connects a virtual machine to the physical network as if it were another device on that network.
 
 
 
-\*\*Host-only Network\*\*  
+\*\*Host-only Network\*\*
 
 A private network between the host computer and virtual machines. It normally does not provide internet access by itself.
 
 
 
-\*\*Snapshot\*\*  
+\*\*Snapshot\*\*
 
 A saved state of a virtual machine. It allows the user to return to an earlier state if something goes wrong during testing.
 
 
 
-\*\*IP Address\*\*  
+\*\*IP Address\*\*
 
 A numerical address assigned to a device on a network. It is used to identify and communicate with other devices.
 
 
 
-\*\*Ping\*\*  
+\*\*Ping\*\*
 
 A command used to test whether another device can be reached over a network.
 
@@ -238,11 +238,11 @@ A descriptive name makes it easier to identify the Linux machine later, especial
 
 
 
-1\. Enter the planned maximum disk capacity: \[insert your actual selected size].
+1\. Enter the planned maximum disk capacity: 25GB.
 
 2\. Select Store virtual disk as a single file or Split virtual disk into multiple files, depending on your chosen configuration.
 
-3\. Click Nexе.
+3\. Click Next.
 
 
 
@@ -262,11 +262,11 @@ A single file is convenient to manage as one unit. Splitting the disk can make i
 
 2\. Find the Memory setting.
 
-3\. Enter the planned RAM allocation: \[insert actual value].
+3\. Enter the planned RAM allocation: 2GB.
 
 4\. Find the Processors setting.
 
-5\. Select the planned number of virtual processors: \[insert actual value].
+5\. Select the planned number of virtual processors: 2vCPu.
 
 6\. Open Network Adapter.
 
@@ -432,7 +432,7 @@ Using a separate name and storage location makes it easier to distinguish the Wi
 
 
 
-1\. Enter the planned maximum disk capacity: \[insert actual selected size].
+1\. Enter the planned maximum disk capacity: 64GB.
 
 2\. Select the virtual disk storage option.
 
@@ -450,9 +450,9 @@ The Windows guest needs its own virtual disk. The capacity must be sufficient fo
 
 1\. Open \*\*Customize Hardware\*\*.
 
-2\. Set the planned memory allocation: \[insert actual value].
+2\. Set the planned memory allocation: 4GB.
 
-3\. Set the planned processor allocation: \[insert actual value].
+3\. Set the planned processor allocation: 2 vCPU.
 
 4\. Open \*\*Network Adapter\*\*.
 
@@ -684,13 +684,13 @@ Open the Ubuntu terminal and run:
 
 ```bash
 
-ping -c 4 WINDOWS\_IP\_ADDRESS
+ping -c 4 WINDOWS\\\_IP\\\_ADDRESS
 
 ```
 
 
 
-Replace `WINDOWS\_IP\_ADDRESS` with the actual IPv4 address of the Windows guest.
+Replace `WINDOWS\\\_IP\\\_ADDRESS` with the actual IPv4 address of the Windows guest.
 
 
 
@@ -704,13 +704,13 @@ Open Command Prompt and run:
 
 ```cmd
 
-ping -n 4 LINUX\_IP\_ADDRESS
+ping -n 4 LINUX\\\_IP\\\_ADDRESS
 
 ```
 
 
 
-Replace `LINUX\_IP\_ADDRESS` with the actual IPv4 address of the Ubuntu guest.
+Replace `LINUX\\\_IP\\\_ADDRESS` with the actual IPv4 address of the Ubuntu guest.
 
 
 
