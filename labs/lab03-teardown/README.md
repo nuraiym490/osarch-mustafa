@@ -73,6 +73,7 @@ Disks:
 lsblk -o NAME,SIZE,TYPE,MODEL
 
 Saved the command outputs in linux-specs.txt.
+
 ```
 
 ## Result
@@ -91,9 +92,9 @@ Compared the commands used by Windows and Linux to retrieve similar hardware inf
 
 |Hardware Information|Windows command|Linux command|
 |-|-|-|
-|CPU|Get-CimInstance Win32\_Processor|lscpu|
-|Memory|<br />Get-CimInstance Win32\_PhysicalMemory|free -h|
-|Disks|<br />Get-CimInstance Win32\_DiskDrive|lsblk|
+|CPU|Get-CimInstance Win32\\\\\\\_Processor|lscpu|
+|Memory|<br />Get-CimInstance Win32\\\\\\\_PhysicalMemory|free -h|
+|Disks|<br />Get-CimInstance Win32\\\\\\\_DiskDrive|lsblk|
 
 
 
@@ -113,11 +114,13 @@ evidence/windows-specs.txt
 
 evidence/linux-specs.txt
 
-evidence/inner\_components.png
+evidence/inner\\\\\\\_components.png
 
-evidence/motherboard\_CPU\_cooling.png
+evidence/motherboard\\\\\\\_CPU\\\\\\\_cooling.png
 
-evidence/RAM\_SSD.png
+evidence/RAM\\\\\\\_SSD.png
+
+
 
 
 
