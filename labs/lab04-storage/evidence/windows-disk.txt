@@ -1,0 +1,22 @@
+Number FriendlyName             PartitionStyle        Size
+------ ------------             --------------        ----
+     0 VMware Virtual NVMe Disk GPT            68719476736
+     1 VMware Virtual NVMe Disk RAW             2147483648
+
+DiskPath: \\?\scsi#disk&ven_nvme&prod_vmware_virtual_n#5&25a13950&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+
+PartitionNumber  DriveLetter Offset                                        Size Type
+---------------  ----------- ------                                        ---- ----
+1                           1048576                                     200 MB System
+2                           210763776                                    16 MB Reserved
+3                C           227540992                                 62.92 GB Basic
+4                           67782049792                                 892 MB Recovery
+
+
+
+DriveLetter FriendlyName            FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining     Size
+----------- ------------            -------------- --------- ------------ ----------------- -------------     ----
+                                    NTFS           Fixed     Healthy      OK                     114.6 MB   892 MB
+                                    FAT32          Fixed     Healthy      OK                    161.69 MB   196 MB
+D           CCCOMA_X64FRE_EN-US_DV9 Unknown        CD-ROM    Healthy      OK                          0 B  8.43 GB
+C                                   NTFS           Fixed     Healthy      OK                     43.26 GB 62.92 GB

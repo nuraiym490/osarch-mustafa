@@ -1,0 +1,13 @@
+NAME                       SIZE TYPE FSTYPE      MOUNTPOINTS       MODEL
+loop0                     50.1M loop squashfs    /snap/snapd/27710 
+loop1                      1.5M loop squashfs    /snap/hwctl/123   
+loop2                     66.8M loop squashfs    /snap/core24/1643 
+sda                         20G disk                               VMware Virtual S
+├─sda1                       1M part                               
+├─sda2                     1.8G part ext4        /boot             
+└─sda3                    18.2G part LVM2_member                   
+  └─ubuntu--vg-ubuntu--lv   10G lvm  ext4        /                 
+sdb                          2G disk                               VMware Virtual S
+sdc                          2G disk                               VMware Virtual S
+sdd                          2G disk                               VMware Virtual S
+sr0                        2.7G rom  iso9660                       VMware Virtual SATA CDRW Drive
