@@ -4,7 +4,7 @@ Pair: no pair                    Driver first half:
 Machine:DESKTOP-TMR0L2E
 Date:08.11.2026
 
-What I did
+# What I did
 
 Linux guest (RAID 1)
 
@@ -21,7 +21,8 @@ Windows guest
 
 Added a new virtual disk and initialized it as <GPT / MBR>.
 Created a partition, formatted it as NTFS and assigned the letter <X>.
-Result
+# Result
+
 State	Array	Checksum
 Healthy	clean, [2/2] [UU]	recorded
 Degraded	clean, degraded, [2/1] [U_]	same as before
@@ -33,10 +34,10 @@ The Windows disk uses <GPT / MBR> because <reason>.
 
 Does RAID 1 help if a colleague deleted the wrong file an hour ago? No. The mirror copies every change to both disks immediately, including a deletion, so the file was gone from both disks at once. RAID protects against disk failure, not human mistakes; for that you need a backup or snapshot.
 
-What did not work the first time
-Saving files from Ubuntu: I had problems saving the evidence and getting it out of the virtual machine to my laptop. <What I did instead.>
-Downloading tools in Ubuntu: some packages did not install at first ("Unable to locate package"). <Cause and fix, e.g. updated the package list, fixed the network, enabled universe.>
-Evidence
+# What did not work the first time
+Saving files from Ubuntu: I had problems saving the evidence and getting it out of the virtual machine to my laptop. 
+Downloading tools in Ubuntu: some packages did not install at first ("Unable to locate package"). 
+# Evidence
 evidence/lsblk-before.txt 
 evidence/array-healthy.txt
 evidence/array-degraded.txt
