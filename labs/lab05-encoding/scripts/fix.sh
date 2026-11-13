@@ -1,0 +1,18 @@
+#Lab 5 convert staff-broken.csv to UTF-8 
+
+set -euo pipefail
+
+SRC_ENC="CP1251"
+
+IN="evidence/staff-broken.csv"
+OUT="evidence/staff-fixed.csv"
+
+{
+	printf '\xEF\xBB\xBF'
+	iconv -f "$SRC_ENC" -t UTF-8 "$IN" | sed 's/\r$//'
+} > "$OUT"
+
+echo "Conversion completed."
+echo "Checking output:"
+file "$OUT"
+xxd -l 16 "$OUT"
