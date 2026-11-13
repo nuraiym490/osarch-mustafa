@@ -1,7 +1,7 @@
 # Lab 5 — Encoding forensics
-Pair: <Фамилия1> / <Фамилия2>   Driver first half: <кто>
+Pair:   Driver first half: 
 Machine: <твой ноутбук>, Ubuntu Server guest (VMware Workstation)
-Date: <ДД.ММ.ГГГГ>
+Date: 12.11.26
 
 ## What I did
 
@@ -61,7 +61,14 @@ The conversion cannot restore these letters by itself. `iconv` only maps each CP
 
 My first version of `fix.sh` only ran `iconv -f CP1251 -t UTF-8`. It did not add a BOM and did not remove CR. Excel opened the result as Windows-1251 and showed text like `РЎР°`, even though the file was valid UTF-8. I added `printf '\xEF\xBB\xBF'` and `sed 's/\r$//'`, ran the script again, and Excel then read the Russian text correctly.
 
-<Добавь, что ещё не получалось. Например, колонка с датой показывала ######## из-за узкой колонки (не ошибка файла). Или kazakh-буквы показывались не так.>
+
 
 ## Evidence
 
+--evidence/staff-broken.csv — original file from Canvas
+- evidence/staff-fixed.csv — converted file
+- evidence/file-before.txt — file and grep output on the original, shows the encoding and the line ending
+- evidence/hexdump-before.txt — first 16 bytes of the original, shows there is no BOM
+- evidence/file-after.txt — file and xxd on the fixed file, shows UTF-8 with BOM and LF
+- evidence/opens-correctly.png — Excel, LibreOffice and cat showing the names correctly
+- scripts/fix.sh — the conversion script
