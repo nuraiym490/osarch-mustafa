@@ -1,6 +1,6 @@
 # Lab 5 — Encoding forensics
 Pair:   Driver first half: 
-Machine: <твой ноутбук>, Ubuntu Server guest (VMware Workstation)
+Machine:DESKTOP-TMR0L2E, Ubuntu Server guest (VMware Workstation)
 Date: 12.11.26
 
 ## What I did
