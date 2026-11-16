@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-SRC_ENC="CP1251"
+SRC_ENC="RK1048"
 
 IN="evidence/staff-broken.csv"
 OUT="evidence/staff-fixed.csv"
